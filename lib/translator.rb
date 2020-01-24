@@ -4,6 +4,7 @@ require "yaml"
 
 def load_library(file_path)
   # code goes here
+  library = {
   YAML.load_file(file_path)
 end
 
