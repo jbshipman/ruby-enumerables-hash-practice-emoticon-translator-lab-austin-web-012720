@@ -6,6 +6,8 @@ def load_library(file_path)
   # code goes here
   library = { "get_meaning" => {}, "get_emoticon" => {} }
   YAML.load_file(file_path)
+  
+  library
 end
 
 def get_japanese_emoticon
